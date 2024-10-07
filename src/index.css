@@ -1,0 +1,137 @@
+body {
+    background-color: #f4f4f4;
+    display: flex;
+   background-color: white;
+    
+    min-height: 100vh;
+}
+.header{
+    width: 60%;
+    height: 50px;
+    background-color:grey;
+    color:white;
+}
+.head{
+    width:210%;
+    height: 50px;
+    background-color:rgb(237, 247, 243);
+    color:white;
+}
+.menu{
+    width: 50%;
+    height: auto;
+    background-color:grey;
+    border-radius: 20px;
+    
+   
+}
+.menu ul li {
+    padding: 10px;
+    display: block;
+    color: white;
+}
+Link{
+    color: white;
+    text-decoration: none;
+}
+.body{
+    width: 148%;
+    height:auto;
+    margin-left: 300px;
+    margin-top: -360px;
+}
+
+.left{
+    width: 25%;
+    height: 240px;
+    float : left;
+    border-radius: 30px;
+   
+    margin-left: 227px;
+    background-color: white;
+
+}
+.right{
+    width: 34%;
+    height: 250px;
+    float : left;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-color: white;
+}
+input[type=text]{
+    width: 70%;
+    height: 20px;
+    border-radius: 12px;
+    
+}
+input[type=email]{
+    width: 70%;
+    height: 20px;
+    border-radius: 12px;
+}
+input[type=password]{
+    width: 70%;
+    height: 20px;
+    border-radius: 12px;
+}
+input[type=submit]{
+    width: 30%;
+    height: 30px;
+    border-radius: 12px;
+}
+.footer{
+    width: 60%;
+    height: 50px;
+    background-color:grey;
+    color:white;
+    margin-top: 250px;
+}
+fieldset{
+    
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+/* .dropdown-menu{
+    position: absolute;
+    top:100px;
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    width: 200px;
+  
+}
+.dropdown-menu::before{
+    content: '';
+    position: absolute;
+    top:5px;
+    height: 20px;
+    width: 2opx;
+    background: var(--secondary-bg);
+    transform: rotate(45deg);
+}
+.dropdown-menu ul li{
+    padding: 10px 0;
+    border-top: 1px solid black;
+
+} */
+ .dropdown-menu.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: var(--speed) ease;
+ }
+ .dropdown-menu.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: var(--speed) ease;
+ }
